@@ -223,7 +223,8 @@ footer {
   }
   
   footer {
-    font-style: italic;
+    font-style: bold;
+    color: #86A185;
   }
   
   @media (min-width: 800px) {
