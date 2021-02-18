@@ -1,0 +1,252 @@
+@import url("https://www.1001freefonts.com/street-humouresque.font");
+@import url("https://www.1001fonts.com/akaju-font.html");
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --bg-color: #fffdf8;
+    --link-color:   #B6CACD;
+    --link-hover-color:  #86A185;
+    --color-4: #FFC977;
+    --color-5:  #F19A64;
+
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font:  "Street Humouresque", sans-serif;
+    --main-text-color: rgb(32, 32, 32);
+  
+    --white-space: 1rem;}
+
+    html {
+        font-size: 100%;
+        font-family: var(--primary-font);
+        background-color: #E1D4BE;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+header,
+main,
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: calc(2 * var(--white-space));
+}
+
+.full-width {
+  background: var(--bg-color);
+  color: white;
+  width: 100%;
+}
+  
+.header-wrapper h1 {
+    font-size: 3rem;
+    letter-spacing: -2px;
+    padding-right: 0.75em;
+    font-family: 'Jua', sans-serif;
+    color: #86A185;
+  }
+
+  main {
+    padding: calc(2 * var(--white-space));
+  }
+  
+  section {
+    margin-bottom: calc(4 * var(--white-space));
+  }
+  
+  .section-heading {
+    font-family: 'Jua', sans-serif; 
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin: 0.5rem 0;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .swatches li {
+    margin-right: 5vw;
+    height: 15vw;
+    width: 20%;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .color-swatch-1 {
+    background-color: var(--bg-color);
+  }
+  
+  .color-swatch-2 {
+    background-color: var(--link-color);
+  }
+  
+  .color-swatch-3 {
+    background-color: var(--link-hover-color);
+  }
+  
+  .color-swatch-4 {
+    background-color: var(--color-4);
+  }
+  
+  .color-swatch-5 {
+    background-color: var(--color-5);
+  }
+  
+  .textures li {
+    height: 30vw;
+    width: 40%;
+    margin-right: 5vw;
+  }
+  
+  .texture-swatch-1 {
+    background: url(../img/pw_maze_white.png) top left repeat;
+  }
+  
+  .texture-swatch-2 {
+    background: url(../img/dog.png) top left repeat;
+  }
+  
+  .texture-swatch-1 {
+    background: url(../img/cat.png) top left repeat;
+  }
+  
+  .texture-swatch-3 {
+    background: url(../img/mouse2.png) top left repeat;
+  }
+  
+  .images ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .images li {
+    display: block;
+    /*margin-right: 5vw;*/
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    font-weight: bold;
+    padding: 1rem;
+    background: #FFE8CB;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Street Humouresque", sans-serif;
+    letter-spacing: -0.5px;
+    color:  #D5771A;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin: 0 1rem 1rem 0;
+    border-radius: 6rem / 100%;
+    border: #ffffff;
+  }
+  
+  .secondary-button {
+    background: #FAECDB;
+    color: #70675D;
+  }
+  
+  button:focus,
+  button:active,
+  button:focus-within {
+    outline: 0;
+    border-radius: 4px;
+  }
+  
+  .typography-main {
+    color: var(--main-text-color);
+  }
+  
+  .h1-sample {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Jua', sans-serif;
+  }
+  
+  .h2-sample {
+    font-family: var(--secondary-font);
+    font-style: bold;
+    font-size: 1.25rem;
+  }
+  
+  p.typography-sample {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    max-width: 960px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  a {
+    font-family: var(--primary-font);
+    color: var(--link-color);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  
+  p[class*="font-details-"] {
+    margin-top: 0.5rem;
+    margin-bottom: calc(2 * var(--white-space));
+    font-size: 0.75rem;
+    font-family: var(--secondary-font);
+    color: #6f6f6f;
+  }
+  
+  .adjectives ul {
+    font-size: 2rem;
+    opacity: 0.5;
+  }
+  
+  .adjectives ul {
+    flex-direction: column;
+  }
+  
+  footer {
+    font-style: italic;
+  }
+  
+  @media (min-width: 800px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 4rem;
+    }
+  
+    .swatches li {
+      margin-right: 3%;
+      height: 10vw;
+      width: 20%;
+    }
+  
+    .textures li {
+      height: 15vw;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .adjectives ul {
+      flex-direction: row;
+    }
+  }
+  
