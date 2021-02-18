@@ -109,19 +109,31 @@ footer {
   }
   
   .texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+    background: url(../img/pw_maze_white.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .texture-swatch-2 {
-    background: url(../img/dog.png) top left repeat;
+    background: url(../img/dog.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .texture-swatch-1 {
-    background: url(../img/cat.png) top left repeat;
+    background: url(../img/cat.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .texture-swatch-3 {
-    background: url(../img/mouse2.png) top left repeat;
+    background: url(../img/mouse2.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;;
   }
   
   .images ul {
